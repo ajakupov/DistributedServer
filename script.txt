@@ -1,0 +1,5 @@
+mpic++ communicator.cpp -o communicator
+mpic++ server.cpp -o server
+mpic++ master.cpp -o master -fopenmp
+mpirun -n 1 communicator
+
